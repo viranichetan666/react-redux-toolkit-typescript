@@ -35,7 +35,7 @@ class HttpClient {
     return config;
   };
 
-  _handleResponse = ({ data }: any) => data;
+  _handleResponse = (data: any) => data;
 
   _handleError = (error: any) => {
     const { status } = error?.response;
